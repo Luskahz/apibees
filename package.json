@@ -3,7 +3,8 @@
     "axios": "^1.9.0",
     "express": "^5.1.0",
     "json2csv": "^6.0.0-alpha.2",
-    "node-cron": "^3.0.3"
+    "node-cron": "^3.0.3",
+    "playwright": "^1.52.0"
   },
   "name": "teste",
   "version": "1.0.0",
@@ -11,7 +12,6 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "node Requisicao",
     "start": "node src/server.js",
     "dev": "node --watch src/server.js"
   },
